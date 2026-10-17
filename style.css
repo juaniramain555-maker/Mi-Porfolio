@@ -1,4 +1,3 @@
-/* CONFIGURACIÓN GENERAL */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@ html {
 }
 
 :root {
-    --fondo: #050d17;
+    --fondo: #020508;
     --panel: #0d1725;
     --celeste: #08c9df;
     --verde: #25e6a0;
@@ -36,7 +35,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* NAVEGACIÓN */
+
 header {
     position: relative;
     z-index: 100;
@@ -99,7 +98,7 @@ header {
     background-color: var(--celeste);
 }
 
-/* PORTADA */
+
 .hero {
     min-height: calc(100vh - 85px);
     max-width: 1450px;
@@ -178,7 +177,6 @@ header {
     line-height: 1.8;
 }
 
-/* BOTONES DE PORTADA */
 .hero-botones {
     display: flex;
     flex-wrap: wrap;
@@ -224,7 +222,7 @@ header {
     transform: translateY(-3px);
 }
 
-/* LOGOS DE TECNOLOGÍAS */
+
 .tecnologias {
     display: flex;
     align-items: center;
@@ -256,7 +254,7 @@ header {
     font-size: 13px;
 }
 
-/* TARJETA DE CÓDIGO */
+
 .codigo-ventana {
     min-width: 0;
     overflow: hidden;
@@ -503,7 +501,7 @@ header {
     border-color: var(--celeste);
 }
 
-/* CONTACTO */
+
 .formulario-contacto {
     width: 100%;
     max-width: 650px;
@@ -544,7 +542,7 @@ header {
     width: 100%;
 }
 
-/* PIE DE PÁGINA */
+
 .pie-pagina {
     padding: 28px 15px;
     text-align: center;
@@ -572,7 +570,7 @@ header {
     font-size: 20px;
 }
 
-/* TABLETS */
+
 @media (max-width: 991px) {
     .hero {
         min-height: auto;
@@ -606,7 +604,7 @@ header {
     }
 }
 
-/* CELULARES */
+
 @media (max-width: 767px) {
     body {
         background-attachment: scroll;
@@ -688,7 +686,7 @@ header {
     }
 }
 
-/* CELULARES MUY PEQUEÑOS */
+
 @media (max-width: 380px) {
     .hero {
         padding-right: 16px;

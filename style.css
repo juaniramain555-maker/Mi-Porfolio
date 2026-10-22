@@ -36,13 +36,6 @@ body {
 }
 
 
-header {
-    position: relative;
-    z-index: 100;
-    background: rgba(3, 12, 22, 0.94);
-    border-bottom: 1px solid rgba(8, 201, 223, 0.2);
-}
-
 .navbar {
     position: fixed;
     top: 0;
@@ -51,6 +44,7 @@ header {
     min-height: 85px;
     z-index: 100;
     background: rgba(3, 12, 22, 0.94);
+    border-bottom: 1px solid #08c9df;
 }
 
 .marca {
@@ -360,7 +354,6 @@ header {
     color: var(--verde);
 }
 
-/* SECCIONES */
 .seccion {
     padding: 100px 0;
     border-top: 1px solid rgba(8, 201, 223, 0.15);
@@ -390,7 +383,6 @@ header {
     line-height: 1.7;
 }
 
-/* SOBRE MÍ */
 .contenedor-foto {
     width: min(100%, 390px);
     aspect-ratio: 1 / 1;
@@ -444,7 +436,6 @@ header {
     font-size: 13px;
 }
 
-/* PROYECTOS */
 .proyecto-card {
     overflow: hidden;
     color: var(--texto);
